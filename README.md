@@ -7,4 +7,5 @@ This website is created to help generate new passwords by clicking the "Generate
 
 Click the button to begin the prompts for the Password Generator.
 
-![Screenshot of Website](./assets/images/Website-Prompt-New.PNG)
+![Screenshot of Website](./assets/images/Website-Prompt-New.png)
+![Screenshot of Website](./Assets/Images/_C__Users_Felix_Documents_UCF_Homework_Homework_3_Password-Generator_Develop_index.html.png)
