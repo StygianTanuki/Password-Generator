@@ -26,6 +26,7 @@ function generatePassword () {
   }
 
   genLength = parseInt(genLength);
+  console.log(genLength)
 
   // || is an Or operator. To section an item you would put it as two seperate items on the same line
   // Putting the genLength in () with ! will allow letters to be invalid in the prompt
