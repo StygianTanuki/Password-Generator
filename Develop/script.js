@@ -4,17 +4,13 @@ const special = ["!", "#", "$", "%", "&","*", "?", "@", "^"];
 const tallLetter = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 const lowLetter = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
-
-
-// Assignment Code
+// Generate a button for code to work
 var generateBtn = document.querySelector("#generate");
 
-// Write password to the #password input
-
+// Begining code to generate password
 function generatePassword () {
   var genOptions = []
   // This will show a prompt to the user once they click on the button
-  // parseInt will convert the prompt into numbers
   var genLength = prompt("Enter the length of the Password (Between 8 to 128 characters): ");
 
 
@@ -25,18 +21,20 @@ function generatePassword () {
     return "";
   }
 
+  //parseInt will convert the prompt into numbers used for the Array
   genLength = parseInt(genLength);
-  console.log(genLength)
 
-  // || is an Or operator. To section an item you would put it as two seperate items on the same line
+  // && is an And operator. To section an item you would put it as two seperate items on the same line so you don't use multiple lines of code
   // Putting the genLength in () with ! will allow letters to be invalid in the prompt
   if (!(genLength > 7 && genLength < 129)) {
     alert ("Please choose a valid length");
+    // Added empty quotes to return to original message in box
     return "";
   }
 
 
 // Create a section for each question with its own variable and if statement to collect the items for the overall array
+
 // Upper Case Section
 var genUpper = confirm ("Would you like uppercase characters?");
   if (genUpper) {
@@ -66,6 +64,7 @@ var genUpper = confirm ("Would you like uppercase characters?");
   console.log(genOptions);
   if (genOptions.length === 0) {
     alert ("Please choose at least one selection.");
+    // Empty quotes will keep original message
     return "";
   }
 
