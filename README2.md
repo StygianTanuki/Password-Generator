@@ -5,4 +5,6 @@ This website is created to help generate new passwords by clicking the "Generate
 
 ## Usage
 
+Click the button to begin the prompts for the Password Generator.
+
 ![Screenshot of Website](./assets/images/_C__Users_Felix_Documents_UCF_Homework_Homework%25202_Portfolio_index.html.png)
